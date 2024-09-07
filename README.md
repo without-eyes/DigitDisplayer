@@ -9,6 +9,9 @@ This Arduino project controls a 7-segment display to show numbers (0–9) and al
 - Resistors
 - Breadboard and jumper wires
 
+## Schematic diagram
+![Schematic diagram](scheme.png)
+
 ## Circuit
 - **7-segment pins**: Connect to Arduino pins as per the `pins[]` array.
 - **Buttons**: Three buttons connected to pins `10`, `11`, and `12` for increasing, decreasing the displayed number, and adjusting brightness.
